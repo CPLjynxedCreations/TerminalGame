@@ -3,12 +3,12 @@
 
 namespace GameControllerSpace
 {
-	public class GameControllerClass
-	{
-		//RUNS THE MAINFRAME OF THE GAME
-		static void Main()
-		{
+    //RUNS THE MAINFRAME OF THE GAME
+    public class GameControllerClass
+    {
+        static void Main()
+        {
 
-		}
-	}
+        }
+    }
 }
