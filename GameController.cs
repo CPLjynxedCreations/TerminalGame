@@ -1,4 +1,8 @@
 ﻿using System;
+using PlayerLogInSpace;
+using PlayerDetailSpace;
+using PlayerNavigationSpace;
+using UIDrawSpace;
 
 
 namespace GameControllerSpace
