@@ -9,3 +9,7 @@ HAVE CHARACTER LENGTH FOR SCREEN
 
 	boarder width = 54 characters
 		empty = 50 characters
+
+		window
+		41 height
+		54 width

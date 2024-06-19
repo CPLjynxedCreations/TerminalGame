@@ -16,6 +16,16 @@ namespace UITextSpace
             Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.WriteLine("+");
             Console.SetCursorPosition(3, Console.CursorTop + 28);
+
+            // re adjust for easier use and more generic
+            // create ints for line and character numbers
+        }
+
+        static public void PlayerReadLine()
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ReadLine();
+            Console.SetCursorPosition(3, Console.CursorTop + 0);
         }
     }
 }

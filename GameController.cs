@@ -15,15 +15,15 @@ namespace GameControllerSpace
         static void Main()
         {
             Console.Clear();
+            Console.WriteLine("Please press Alt + Enter to enable fullscreen before continuing");
+            //readline "yes"
+            Console.ReadLine();
+            Console.SetWindowSize(54, 41);
             UIDrawClass.UIHeader();
             UIDrawClass.UIBoarder();
             UIDrawClass.UIFooter();
             UITextClass.Header();
-            Console.ReadLine();
-            //Console.Clear();
-            //UIDrawClass.UIBoarder();
-            //Console.SetCursorPosition(0, Console.CursorTop - 4);
-            //Console.SetCursorPosition(0, Console.CursorTop + 2);
+            UITextClass.PlayerReadLine();
         }
     }
 }
