@@ -12,7 +12,7 @@ namespace UIDrawSpace
             //WELCOME MESSAGE
         }
 
-        static public void UIHeading()
+        static public void UIHeader()
         {
             Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.WriteLine("\n" + @"   ________________________________________________" + "\n" +
@@ -23,35 +23,58 @@ namespace UIDrawSpace
             Console.ForegroundColor = ConsoleColor.White;
         }
 
+        // VOID TO CHANGE HEADING TEXT
+        // MOVE CURSOR TO POSITION
+
         static public void UIBoarder()
         {
             Console.ForegroundColor = ConsoleColor.DarkCyan;
-            Console.WriteLine(       @" //================================================\\" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @"||                                                  ||" + "\n" +
-                                     @" \\================================================//" + "\n");
+            Console.WriteLine(@" //================================================\\" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @"||                                                  ||" + "\n" +
+                              @" \\================================================//");
             Console.ForegroundColor = ConsoleColor.White;
-
         }
+
+        static public void UIFooter()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.WriteLine(@"  |                                                |" + "\n" +
+                              @" //================================================\\" + "\n" +
+                              @" +                                                  +" + "\n" +
+                              @" \\================================================//");
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+
+        // VOID TO CHANGE TEXT
+        // CHANGE CURSOR POSTITION FOR TEXT
+        // ONE FOR EACH LINE NUMBER? CHANGE LINE 1,2,3
+        // CHANGE TEXT COLOR TO BOARDER AND ADD END
+        // position 52, - 1 line fill ||
+        // THEN RELATIVE MOVE POSITION BACK DOWN
+
+        // VOID TO FILL END OF BOARDER
+        // CHANGE TEXT COLOR TO BOARDER AND ADD END
+        // position 52, - 1 line fill ||
     }
 }

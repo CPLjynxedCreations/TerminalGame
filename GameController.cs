@@ -15,9 +15,10 @@ namespace GameControllerSpace
         static void Main()
         {
             Console.Clear();
-            UIDrawClass.UIHeading();
-            UITextClass.Header();
+            UIDrawClass.UIHeader();
             UIDrawClass.UIBoarder();
+            UIDrawClass.UIFooter();
+            UITextClass.Header();
             Console.ReadLine();
             //Console.Clear();
             //UIDrawClass.UIBoarder();
