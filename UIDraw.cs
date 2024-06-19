@@ -1,5 +1,6 @@
 ﻿using System;
 using GameControllerSpace;
+using ColorManagerSpace;
 //NOT SURE WHAT SPACES TO USE YET
 
 namespace UIDrawSpace
@@ -14,21 +15,20 @@ namespace UIDrawSpace
 
         static public void UIHeader()
         {
-            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            ColorManagerClass.ColorDarkCyan();
             Console.WriteLine("\n" + @"   ________________________________________________" + "\n" +
                                      @" //================================================\\" + "\n" +
                                      @" +                                                  +" + "\n" +
                                      @" \\================================================//" + "\n" +
                                      @"  |                                                |");
-            Console.ForegroundColor = ConsoleColor.White;
+            ColorManagerClass.ColorReset();
         }
 
         // VOID TO CHANGE HEADING TEXT
-        // MOVE CURSOR TO POSITION
 
         static public void UIBoarder()
         {
-            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            ColorManagerClass.ColorDarkCyan();
             Console.WriteLine(@" //================================================\\" + "\n" +
                               @"||                                                  ||" + "\n" +
                               @"||                                                  ||" + "\n" +
@@ -53,17 +53,17 @@ namespace UIDrawSpace
                               @"||                                                  ||" + "\n" +
                               @"||                                                  ||" + "\n" +
                               @" \\================================================//");
-            Console.ForegroundColor = ConsoleColor.White;
+            ColorManagerClass.ColorReset();
         }
 
         static public void UIFooter()
         {
-            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            ColorManagerClass.ColorDarkCyan();
             Console.WriteLine(@"  |                                                |" + "\n" +
                               @" //================================================\\" + "\n" +
                               @" +                                                  +" + "\n" +
                               @" \\================================================//");
-            Console.ForegroundColor = ConsoleColor.White;
+            ColorManagerClass.ColorReset();
         }
 
         // VOID TO CHANGE TEXT

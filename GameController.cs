@@ -2,6 +2,7 @@
 using PlayerLogInSpace;
 using PlayerDetailSpace;
 using PlayerNavigationSpace;
+using ColorManagerSpace;
 using UIDrawSpace;
 using UITextSpace;
 
@@ -18,6 +19,7 @@ namespace GameControllerSpace
             Console.WriteLine("Please press Alt + Enter to enable fullscreen before continuing");
             //readline "yes"
             Console.ReadLine();
+            Console.Clear();
             Console.SetWindowSize(54, 41);
             UIDrawClass.UIHeader();
             UIDrawClass.UIBoarder();
