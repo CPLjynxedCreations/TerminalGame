@@ -26,7 +26,7 @@ namespace UIDrawSpace
         static public void UIBoarder()
         {
             Console.ForegroundColor = ConsoleColor.DarkCyan;
-            Console.WriteLine(@" //================================================\\" + "\n" +
+            Console.WriteLine(       @" //================================================\\" + "\n" +
                                      @"||                                                  ||" + "\n" +
                                      @"||                                                  ||" + "\n" +
                                      @"||                                                  ||" + "\n" +
