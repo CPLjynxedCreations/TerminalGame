@@ -3,5 +3,9 @@
 HAVE CHARACTER LENGTH FOR SCREEN
 	boarder height = 24 lines 2*2
 		empty = 20 lines
+	Boarder start = 40
+
+	HEADER SPACE = @" +                                                  +"
+
 	boarder width = 54 characters
 		empty = 50 characters
