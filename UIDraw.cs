@@ -1,6 +1,7 @@
 ﻿using System;
 using GameControllerSpace;
 using ColorManagerSpace;
+using System.Diagnostics;
 //NOT SURE WHAT SPACES TO USE YET
 
 namespace UIDrawSpace
@@ -8,6 +9,7 @@ namespace UIDrawSpace
     //DRAWS ANY UI FROM BOARDERS TO TEXT
     public class UIDrawClass
     {
+
         static public void UIWelcome()
         {
             //WELCOME MESSAGE
@@ -30,28 +32,28 @@ namespace UIDrawSpace
         {
             ColorManagerClass.ColorDarkCyan();
             Console.WriteLine(@" //================================================\\" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
-                              @"||                                                  ||" + "\n" +
+                              @"|7                                                  ||" + "\n" +
+                              @"|8                                                  ||" + "\n" +
+                              @"|9                                                  ||" + "\n" +
+                              @"10                                                  ||" + "\n" +
+                              @"11                                                  ||" + "\n" +
+                              @"12                                                  ||" + "\n" +
+                              @"13                                                  ||" + "\n" +
+                              @"14                                                  ||" + "\n" +
+                              @"15                                                  ||" + "\n" +
+                              @"16                                                  ||" + "\n" +
+                              @"17                                                  ||" + "\n" +
+                              @"18                                                  ||" + "\n" +
+                              @"19                                                  ||" + "\n" +
+                              @"20                                                  ||" + "\n" +
+                              @"21                                                  ||" + "\n" +
+                              @"22                                                  ||" + "\n" +
+                              @"23                                                  ||" + "\n" +
+                              @"24                                                  ||" + "\n" +
+                              @"25                                                  ||" + "\n" +
+                              @"26                                                  ||" + "\n" +
+                              @"27                                                  ||" + "\n" +
+                              @"28                                                  ||" + "\n" +
                               @" \\================================================//");
             ColorManagerClass.ColorReset();
         }
@@ -65,6 +67,8 @@ namespace UIDrawSpace
                               @" \\================================================//");
             ColorManagerClass.ColorReset();
         }
+
+        //SHOP UI WITH COLUMN
 
         // VOID TO CHANGE TEXT
         // CHANGE CURSOR POSTITION FOR TEXT

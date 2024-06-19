@@ -1,15 +1,14 @@
 **TODO**
-
-HAVE CHARACTER LENGTH FOR SCREEN
-	boarder height = 24 lines 2*2
-		empty = 20 lines
-	Boarder start = 40
-
-	HEADER SPACE = @" +                                                  +"
-
-	boarder width = 54 characters
-		empty = 50 characters
-
+		
 		window
 		41 height
 		54 width
+
+		for ui box create void for lines
+			line 1 = 7
+			line 2 = 8
+			etc
+		maybe for i = 1 lines. i<20. i++
+			generate number of line strings
+			otherwise individual ones need makings
+
