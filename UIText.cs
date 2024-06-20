@@ -3,15 +3,17 @@ using GameControllerSpace;
 using UIDrawSpace;
 using ColorManagerSpace;
 
+//THIS WILL USE UIDRAWCLASS.LINE[] FOR LINE NUMBER
+
 namespace UITextSpace
 {
     public class UITextClass
     {
         static string strClearSpace = "                                                ";
         static public string strPlayerTextInput;
-        static int intHeaderTextLine = 3;
-        static int intPlayerReplyLine = 30;
-        static int intFooterTextLine = 32;
+        static int intHeaderTextLine = 3; //WILL COME FROM UI LINE[]
+        static int intPlayerReplyLine = 30; //WILL COME FROM UI LINE[]
+        static int intFooterTextLine = 32; //WILL COME FROM UI LINE[]
         //static int intWriteText = 7;
         static int intTextStart = 4;
         static int intBoarder = 3;

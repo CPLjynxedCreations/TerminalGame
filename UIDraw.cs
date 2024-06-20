@@ -9,6 +9,7 @@ namespace UIDrawSpace
     //DRAWS ANY UI FROM BOARDERS TO TEXT
     public class UIDrawClass
     {
+        //CREATE VOID LOOP FOR LINE MAKING. GET TOTAL NUMBER OF LINES FOR ARRAY
 
         static public void UIWelcome()
         {
