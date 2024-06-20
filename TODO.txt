@@ -4,13 +4,6 @@
 		41 height
 		54 width
 
-		ADD PLAYER STATS BOARDER
-
-		for ui box create void for lines
-			line 1 = 7
-			line 2 = 8
-			etc
-		maybe for i = 1 lines. i<20. i++
-			generate number of line strings
-			otherwise individual ones need makings
+		ADD PLAYER STATS BOARDER UI
+		add player reg now with txt file save
 
