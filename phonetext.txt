@@ -1,0 +1,9 @@
+
+
+int[] line = new int[19];
+For I =1; I < array length; I++
+    Line[i] = 6+i
+
+                for (int i = 8; i < PCItemsListClass.shopListPage.Count && i < PCItemsListClass.listMaxPage; i++){
+                    Console.WriteLine(i-8+1 + " - " + "$" + PCItemsListClass.shopPriceListPage[i] + " " + PCItemsListClass.shopListPage[i]);
+                }

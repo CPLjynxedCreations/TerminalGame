@@ -4,6 +4,8 @@
 		41 height
 		54 width
 
+		ADD PLAYER STATS BOARDER
+
 		for ui box create void for lines
 			line 1 = 7
 			line 2 = 8
