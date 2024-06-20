@@ -9,7 +9,20 @@ namespace UIDrawSpace
     //DRAWS ANY UI FROM BOARDERS TO TEXT
     public class UIDrawClass
     {
-        //CREATE VOID LOOP FOR LINE MAKING. GET TOTAL NUMBER OF LINES FOR ARRAY
+        static public int[] arrTerminalLine = new int[34];
+        static public int[] arrTextLine = new int[19];
+
+        static public void CreateLineArray()
+        {
+            for (int i = 0; i < arrTerminalLine.Length; i++)
+            {
+                arrTerminalLine[i] = i;
+            }
+            for (int i = 0; i < arrTextLine.Length; i++)
+            {
+                arrTextLine[i] = arrTerminalLine[7+i];
+            }
+        }
 
         static public void UIWelcome()
         {

@@ -11,9 +11,9 @@ namespace UITextSpace
     {
         static string strClearSpace = "                                                ";
         static public string strPlayerTextInput;
-        static int intHeaderTextLine = 3; //WILL COME FROM UI LINE[]
-        static int intPlayerReplyLine = 30; //WILL COME FROM UI LINE[]
-        static int intFooterTextLine = 32; //WILL COME FROM UI LINE[]
+        static int intHeaderTextLine = 3;
+        static int intPlayerReplyLine = UIDrawClass.arrTerminalLine[30];
+        static int intFooterTextLine = UIDrawClass.arrTerminalLine[32];
         //static int intWriteText = 7;
         static int intTextStart = 4;
         static int intBoarder = 3;
@@ -24,14 +24,11 @@ namespace UITextSpace
             ColorManagerClass.ColorCyan();
             Console.WriteLine("WELCOME");
             ColorManagerClass.ColorReset();
-
-            // re adjust for easier use and more generic
-            // create ints for line and character numbers
         }
 
         static public void Join()
         {
-            Console.SetCursorPosition(intBoarder, 7); // line 1
+            Console.SetCursorPosition(intBoarder, UIDrawClass.arrTextLine[0]); // line 1
             Console.WriteLine("Join us");
         }
 

@@ -17,6 +17,7 @@ namespace GameControllerSpace
         {
             Console.CursorVisible = false;
             Console.Clear();
+            UIDrawClass.CreateLineArray();
             Console.WriteLine("Please press Alt + Enter to enable fullscreen before continuing");
             //readline "yes"
                 //read == yes?
@@ -27,6 +28,8 @@ namespace GameControllerSpace
             UIDrawClass.UIFooter();
             UITextClass.HeaderWelcome();
             UITextClass.Join();
+            //Console.SetCursorPosition(2, UIDrawClass.arrLine[17]);
+            //Console.WriteLine("TEST");
             //hey
             UITextClass.PlayerReadLine();
         }
